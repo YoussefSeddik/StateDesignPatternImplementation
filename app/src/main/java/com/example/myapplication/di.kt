@@ -1,8 +1,6 @@
 package com.example.myapplication
 
-import androidx.lifecycle.Lifecycle
 import com.example.myapplication.main.MainActivityContract
-import com.example.myapplication.main.MainActivityPresenter
 import com.example.myapplication.states.complete_personal_info.CompletePersonalSatePresenter
 import com.example.myapplication.states.complete_personal_info.CompletePersonalState
 import com.example.myapplication.states.edit_family_member.EditFamilyMemberState
@@ -14,9 +12,6 @@ import org.koin.dsl.module
 
 
 val appModule = module {
-    single<MainActivityContract.Presenter> {
-        MainActivityPresenter()
-    }
 
     single<MainActivityContract.Presenter>(named("PersonalPresenter")) {
         PersonalInfoStatePresenter()

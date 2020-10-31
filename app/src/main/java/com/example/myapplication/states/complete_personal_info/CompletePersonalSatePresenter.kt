@@ -6,7 +6,7 @@ import com.example.myapplication.base.BasePresenter
 import com.example.myapplication.main.MainActivityContract
 import com.example.myapplication.models.MemberModel
 
-class CompletePersonalSatePresenter() : BasePresenter<MainActivityContract.View>(),
+class CompletePersonalSatePresenter : BasePresenter<MainActivityContract.View>(),
     MainActivityContract.Presenter {
 
     override fun validateData(
