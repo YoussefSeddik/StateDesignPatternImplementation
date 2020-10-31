@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+    <string name="err_name">Enter valid name</string>
+    <string name="err_email">Enter valid email</string>
+    <string name="err_personal_note">Enter valid note</string>
+    <string name="err_complete_profile">Enter valid note</string>
+    <string name="err_edit_family_note">Enter valid note</string>
+    <string name="err_role">Enter role</string>
+    <string name="err_status">Enter status</string>
+</resources>
